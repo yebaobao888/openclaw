@@ -192,7 +192,7 @@ export async function launchOpenClawChrome(
       `--user-data-dir=${userDataDir}`,
       "--no-first-run",
       "--no-default-browser-check",
-      "--disable-sync",
+      // "--disable-sync",  // 注释掉以启用 Google 账号同步
       "--disable-background-networking",
       "--disable-component-update",
       "--disable-features=Translate,MediaRouter",
